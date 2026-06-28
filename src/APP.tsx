@@ -523,7 +523,7 @@ ${inStockList}`;
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
     };
 
-    setChatbotMessages(prev => [...prev, userMsg]);
+   setChatbotMessages(prev => [...prev, userMsg]);
     const currentInput = chatInput;
     setChatInput('');
     setIsChatLoading(true);
